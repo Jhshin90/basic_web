@@ -23,7 +23,7 @@ public class BoardContorller {
     public List<BoardDto> getList(){
 
         List<BoardDto> boardList = boardService.getList();
-        logger.info("result {}", boardList);
+        logger.info("result457 {}", boardList);
 
         return boardList;
     }
